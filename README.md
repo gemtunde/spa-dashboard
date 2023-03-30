@@ -4,6 +4,8 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Sidebar screenshoot
 ![image](https://user-images.githubusercontent.com/52404803/228818731-97e65008-a388-41f2-af4d-1acbace62cb0.png)
+![image](https://user-images.githubusercontent.com/52404803/228819330-7ce7f6e0-f023-4407-8938-4af1faa4ad2b.png)
+
 
 ## Recommended IDE Setup
 
