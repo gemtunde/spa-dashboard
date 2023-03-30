@@ -16,7 +16,8 @@
     --dark : #1e293b;
     --darl-alt : #334155;
     --light : #f1f5f9;
-    --sidebar-width: 300px
+    --sidebar-width: 300px;
+    --sidebar-height: 100vh;
   }
   *{
     margin: 0;
