@@ -28,9 +28,9 @@
     align-items: center;
     justify-content: space-between;
    // background-color: var(--ash);
-    width: 100%;
+    width: 850px;
     height: 10vh;
-    padding: 2.5rem;
+    padding: 2rem;
 
     h3{
         color: var(--dark);
@@ -58,8 +58,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding:1rem 2rem;
-        width: 40%;
+        padding:1rem 0;
+        width: 25%;
         .button{
             text-decoration: none;
             cursor: pointer;
