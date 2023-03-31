@@ -60,13 +60,14 @@ import { ref } from 'vue';
 aside{
     display: flex;
     flex-direction: column;
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: var(--light);
+    color: var(--dark);
     width: calc(2rem + 32px);
     min-height: var(--sidebar-height);
     padding: 1rem;
     overflow: hidden;
     transition: 0.2s ease-out;
+   box-shadow: 5px 0 5px -5px #333;
     .logo{
         margin-bottom: 1rem;
         img{
@@ -118,12 +119,12 @@ aside{
              transition: 0.2s ease-out;
              .material-icons{
                  transition: 0.2s ease-out;
-                 color: var(--light);
+                 color: var(--dark);
                  font-size: 2rem;
                  margin-right: 1rem;
              }
              .text{
-                color: var(--light);
+                color: var(--dark);
                  transition: 0.2s ease-out;                 
              }
              &:hover, &.router-link-exact-active {

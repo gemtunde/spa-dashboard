@@ -1,6 +1,13 @@
 <template>
     <main class="home-page">
-      <h2>Home Page</h2>
-      <p>This is home page</p>
+       <TopBar />
     </main>
 </template>
+<script setup>
+ import TopBar from '../components/TopBar.vue';
+</script>
+<style lang="scss" scoped>
+ main{
+    background-color: "red";
+ }
+</style>

@@ -1,7 +1,9 @@
 <template>
       <div class="app">
         <Sidebar />
-       <router-view />
+        <router-view />
+        <Sidebar />
+       
       </div>
 </template>
 
@@ -9,42 +11,3 @@
     import Sidebar from './components/Sidebar.vue';
 </script>
 
-<style lang="scss">
-  :root {
-    --primary : #4ade80;
-    --grey : #64748b;
-    --dark : #1e293b;
-    --dark-alt : #334155;
-    --light : #f1f5f9;
-    --sidebar-width: 300px;
-    --sidebar-height: 100vh;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Fira Sans' 'sans-serif';
-  }
-  body {
-    background-color: var(--light);
-  }
-  button {
-    cursor: pointer;
-    appearance: none;
-    border: none;
-    outline: none;
-    background: none;
-  }
-  .app {
-    display: flex;
-
-    main{
-      flex: 1 1 0;
-      padding: 2rem;
-
-      @media(max-width: 760px){
-        padding-left: 6rem;
-      }
-    }
-  }
-</style>
